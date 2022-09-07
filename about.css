@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    min-width: 754px;
+    background: rgb(42, 27, 61);
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(40, 28, 58) 26%, rgb(65, 50, 136) 100%);
+
+}
+
+/* -------------------Header--------------------- */
+
+header h1 {
+    display: inline-block;
+    text-align: start;
+    font-family: 'Brush Script MT', cursive;
+    width: 200px;
+    font-size: 24px;
+
+
+}
+
+.headerBackground {
+    background: linear-gradient(135deg, rgb(126, 102, 163)28%, rgba(164, 179, 182, 1) 100%);
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 90%;
+    max-width: 900px;
+    height: 70px;
+    padding-top: 30px;
+}
+
+a {
+
+    width: 90px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+nav {
+    position: relative;
+    padding: 5px 20px;
+    width: 250px;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(216, 63, 135, 30ß);
+}
+
+.mainHead {
+    position: relative;
+    top: -200px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart {
+    text-align: end;
+    display: inline-block;
+    width: 200px;
+}
+
+main {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(42, 27, 61);
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+
+}
+
+main>div {
+    position: relative;
+    ;
+    top: -100px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+main>img {
+    width: 100%;
+}
+
+main section {
+    width: 80%;
+    text-align: center;
+}
+
+section h2 {
+    margin: 50px;
+    text-align: start;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 3;
+    text-align: start;
+    width: 90%;
+}
+
+footer {
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(126, 102, 163)28%, rgba(164, 179, 182, 1) 100%);
+    text-align: center;
+}
+
+footer svg {
+    position: relative;
+    top: -60px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer div {
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}

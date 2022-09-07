@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MacBook pro 2021",
+        "imageUrl": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP858/mbp16-gray.png"
+    },
+    {
+        "name": "MacBook pro 2020",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/06/26/12/21/macbook-pro-5342546_1280.png"
+    },
+    {
+        "name": "MacBook air 2020",
+        "imageUrl": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png"
+    }
+]

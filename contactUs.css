@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    min-width: 754px;
+    background: rgb(42, 27, 61);
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(40, 28, 58) 26%, rgb(65, 50, 136) 100%);
+}
+
+/* -------------------Header--------------------- */
+
+header h1 {
+    display: inline-block;
+    text-align: start;
+    font-family: 'Brush Script MT', cursive;
+    width: 200px;
+    font-size: 24px;
+
+
+}
+
+.headerBackground {
+    background: linear-gradient(135deg, rgb(126, 102, 163)28%, rgba(164, 179, 182, 1) 100%);
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 90%;
+    max-width: 900px;
+    height: 70px;
+    padding-top: 30px;
+}
+
+a {
+
+    width: 90px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+nav {
+    position: relative;
+    padding: 5px 20px;
+    width: 250px;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(216, 63, 135, 30ß);
+}
+.cart{
+    width: 200px;
+}
+
+main {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 100px;
+    color: rgb(42, 27, 61);
+
+}
+main>div{
+    position: relative;;
+    top: -100px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+}
+form{
+    margin: 50px;
+    color: rgb(42, 27, 61);
+    width: fit-content;
+}
+
+form label{
+    width: 65px;
+    display: inline-block;
+}
+form div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+form p{
+    color: rgb(175, 180, 189);
+    margin: 5px;
+}
+
+input[type=text],input[type=email],textarea{
+    width: 300px;
+    border: 2px solid rgb(199, 75, 133);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+input[type=text],input[type=email]{
+    height: 25px;
+}
+
+form button{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(199, 75, 133);
+    color: white;
+    width: 70px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.floating{
+    position: absolute;
+    padding-top: 20px;
+    top: 450px;
+    left: 800px;
+    height: 300px;
+    background-color:white;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgb(199, 75, 133);
+    border-radius: 20px;
+
+}
+
+.bottomSection{
+    background-color: rgb(126, 102, 163);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+
+.bottomSection article{width:500px;}
+
+footer{
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(135deg,   rgb(126,102,163)28%, rgba(164,179,182,1) 100%);
+    text-align: center;
+}
+
+footer svg {
+    position: relative;top: -60px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   cursor:pointer;
+}
+footer div{
+    color: white;
+    margin-bottom: 30px;
+}
+button{
+    cursor:pointer;
+
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor:pointer;
+
+}

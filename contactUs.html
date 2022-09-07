@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactUs.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="headerBackground">
+        <header>
+            <h1>
+                Al Hassan E-Commerce
+            </h1>
+            <nav>
+                <i><a href="./index.html">Home</a></i>
+                <i><a href="./about.html">About</a></i>
+                <i><a href="#">Contact Us</a></i>
+            </nav>
+            <div class="cart"></div>
+        </header>
+    </div>
+    <main>
+        <div>
+            <i>
+                <h1>Contact Us</h1>
+            </i>
+        </div>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" pattern="([a-zA-Z]{3})\w+" value="Name" placeholder="Enter your Name"><p>name more than 3 letters</p>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="emal" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" value="Email"
+                    placeholder="Enter your Email"><p>EX:alhassan@sys.com</p>
+
+            </div>
+            <div>
+                <label for="phone">Phone: </label>
+                <input type="text" id="phone" pattern="01[0-2]\d{8}$" value="Phone" placeholder="Enter your Phone"><p>(010,011,012,015)+8numbers</p>
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+            </div>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+        </form>
+        <section class="bottomSection">
+            <h1>
+                GET IN TOUCH
+            </h1>
+            <h3>
+                Hey! We are looking forward<br>
+                to start a project with you!
+            </h3>
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptas esse sint inventore quis aliquam
+                repellat numquam laboriosam quos modi, optio reprehenderit quod corporis laudantium veniam recusandae
+                dolores ex unde.
+            </article>
+        </section>
+        <section class="floating">
+            <strong>CALL US</strong><br><br>
+            <p>+201023698755</p>
+            <p>+201078568874</p><br>
+            <strong>LOCATION</strong><br><br>
+            <p>Gharbia ElMhalla</p>
+            <p>Africa Egypt</p><br>
+            <strong>BUSINESS HOURES</strong><br><br>
+            <p>9 AM - 5 PM</p>
+            <p>Fri-Sat Close</p><br>
+        </section>
+    </main>
+    <footer>
+        <svg onclick="topFunction()">
+            <polyline points="0,40 20,20 40,40 " style="fill:none;stroke:white;stroke-width:6" />
+        </svg>
+        <div>
+            <p>Copyright © 2022 Apple Inc. All rights reserved.</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJE8vBPFmLcAKfgR4-l3mPZ0LRrkUfSvhG1w&usqp=CAU"
+                alt="">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <!-- <script>
+        var form = document.getElementsByTagName("form")[0];
+        form.addEventListener('submit', (e) => {
+            if (!(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(form.email.value))) {
+                e.preventDefault();
+                console.log("error")
+            }
+        });
+    </script> -->
+</body>
+
+</html>
